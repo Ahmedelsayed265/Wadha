@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Wadha-Logo.png" />
+    <title>Wadha</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome and google fonts-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Damion&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <!--owl links jquery-css-js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!--WOW.js-->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navigation">
+            <a href="#" class="logo">
+                <h1>Wadha</h1>
+            </a>
+            <ul id="ul">
+                <li class="list activex" data-filter="Home" style="--i: 1">Home</li>
+                <li class="list" data-filter="Shop" style="--i: 2">shop</li>
+                <li class="list" data-filter="promotion" style="--i: 3">promotion</li>
+                <li class="list" data-filter="Gallary" style="--i: 4">Gallary</li>
+                <li class="list" data-filter="blog" style="--i: 5">Blog </li>
+                <li class="list" data-filter="Contact" style="--i: 6">Contact</li>
+            </ul>
+            <div class="right-items">
+                <a href="#">
+                    <i class="fas fa-sun" id="icon"></i>
+                </a>
+                <a href="#" id="search">
+                    <i class="far fa-search"></i>
+                </a>
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                    <small id="count" class="cart-counter">0</small>
+                </a>
+                <a href="#">
+                    <i class="fal fa-shopping-bag"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+                <div class="toogle" id="toggle">
+                    <i id="icon2" class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="link-search">
+                <i class="far fa-search"></i>
+            </div>
+            <div class="search-bar">
+                <input id="input-search" type="text" placeholder="Wadha Brand" />
+            </div>
+            <div class="link-search" id="close">
+                <i class="fal fa-times"></i>
+            </div>
+            <!--<div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Women's clothes in sale</a></li>
+                    <li><a href="#">men's clothes in sale</a></li>
+                    <li><a href="#">kids' clothes</a></li>
+                    <li><a href="#">Shoes & Bags</a></li>
+                    <li><a href="#">perfumes</a></li>
+                </ul>
+                @media(max-aspect-ratio:16/9){
+                #video{
+                width: auto;
+                height: 100%;
+                }
+            }
+            </div>-->
+        </div>
+    </nav>
+    <div class="container active" data-item="Home">
+        <section class="vid">
+            <video id="video" src="images/wadhaDark.mp4" muted loop autoplay playsinline></video>
+            <div class="overlay" id="over">
+                <h1>
+                    start your journey
+                    <br />
+                    with
+                    <span>wadha</span>
+                </h1>
+                <div class="btn">
+                    <a href="#">Explore</a>
+                </div>
+            </div>
+        </section>
+        <section class="welcome">
+            <div class="banner banner-transition"></div>
+            <div class="article article-transition">
+                <h2>welcome</h2>
+                <h1>Qatari luxury brand since 2010.</h1>
+                <p>
+                    THE HOUSE OF WADHA IS A CURATED LIVING SPACE LOCATED AT MSHEIREB,
+                    DOHA THAT TURNS THE AESTHETIC PRINCIPLES OF THE BRAND INTO A SPATIAL
+                    EXPERIENCE. BALANCING TRADITION WITH MODERNITY IN A RELAXING SOCIAL
+                    VENUE FIT FOR MANY DIFFERENT ACTIVITIES, THE TOWNHOUSE REPRESENTS AN
+                    INTERPRETATION OF THE ART OF LIVING AND MERGES THE SIMPLICITY OF THE
+                    INTERIOR DESIGNED BY WADHA WITH THE EMPLOYMENT OF MSHEIREB’S
+                    ARCHITECTURAL LANGUAGE.
+                    <br />FOR MORE INFORMATION PLEASE CONTACT US on
+                    <a href="tel:+97450411176">+97450411176</a><br />
+                    or visit our house
+                    <br />
+                    Sat -Thu 10 AM - 8 PM
+                    <br />
+                    Fri 2 PM - 8 PM
+                </p>
+                <div class="btns">
+                    <button>
+                        <span></span>Contact us</button>
+                    <button class="left-btn">
+                        <span></span>Subscripe</button>
+                </div>
+            </div>
+        </section>
+        <section class="featured">
+            <h1 class="wow flipInY" data-wow-duration="1.5s">recent projects</h1>
+            <div class="min-line"></div>
+            <div class="Slider owl-carousel owl-theme">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide1.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>Wrap cape in brown quilt</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>140 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide2.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>Wrap cape in brown quilt</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fal fa-star"></i>
+                            <span>68 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide5.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>asymmetric skirt in silk</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fal fa-star"></i>
+                            <span>56 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide4.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>square neckline dress</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fal fa-star"></i>
+                            <i class="fal fa-star"></i>
+                            <span>50 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide12.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>rose.patchouli.amber.</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>300 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits<i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide9.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>house of Wadha</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fal fa-star"></i>
+                            <span>90 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide10.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>house of Wadha</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>500 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide11.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>house of Wadha</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>1000 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits<i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide3.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>bag in olive calf leather</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>1000 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits<i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide6.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>summer \ spring collections</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>2000 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide7.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>summer \ spring collections</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>889 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/slide8.jpg" />
+                    </div>
+                    <div class="content">
+                        <h3>side slid dress with hooded</h3>
+                        <div class="prev">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>3000 Reviews</span>
+                        </div>
+                        <div class="fav">
+                            Add to favourits
+                            <i class="heart fal fa-heart"></i>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="team-head wow flipInY" data-wow-duration="1.5s">Wadha Team</h1>
+        <div class="cen">
+            <div id="cen" class="min-line"></div>
+        </div>
+        <section class="team-work">
+            <div class="team-card wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <div class="mem-image">
+                    <img src="images/team1.jpg" alt="" />
+                </div>
+                <div class="preview">
+                    <h3>Wadha manager</h3>
+                    <p>
+                        Skilled in Negotiation, Training, Time Management, Teamwork, and
+                        Project Management.
+                    </p>
+                </div>
+                <div class="prevo">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="social-media">
+                    <a href="#" style="color: #10a5f9">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" style="color: blue">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#" style="color: #0c62d1">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" style="color: #d10c78">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="team-card wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                <div class="mem-image">
+                    <img src="images/slide1.jpg" alt="" />
+                </div>
+                <div class="preview">
+                    <h3>Fashion model</h3>
+                    <p>
+                        Skilled in Negotiation, Training, Time Management, Teamwork, and
+                        Project Management.
+                    </p>
+                </div>
+                <div class="prevo">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fal fa-star"></i>
+                </div>
+                <div class="social-media">
+                    <a href="#" style="color: #10a5f9">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" style="color: blue">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#" style="color: #0c62d1">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" style="color: #d10c78">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="team-card wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s">
+                <div class="mem-image">
+                    <img src="images/team2.jpg" alt="" />
+                </div>
+                <div class="preview">
+                    <h3>Fashion model</h3>
+                    <p>
+                        Skilled in Negotiation, Training, Time Management, Teamwork, and
+                        Project Management.
+                    </p>
+                </div>
+                <div class="prevo">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="social-media">
+                    <a href="#" style="color: #10a5f9">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" style="color: blue">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#" style="color: #0c62d1">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" style="color: #d10c78">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <h1 class="ser wow flipInY" data-wow-duration="1.s">our services</h1>
+        <div class="cen">
+            <div class="min-line"></div>
+        </div>
+        <section class="services">
+            <div class="service-card wow fadeInUp" data-wow-delay="0.2s">
+                <i class="far fa-truck"></i>
+                <h4>worldwide delivery</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aspernatur rem aliquid voluptas
+                    veniam dolorem.
+                </p>
+            </div>
+            <div class="service-card wow fadeInUp" data-wow-delay="0.4s">
+                <i class="far fa-lock-alt"></i>
+                <h4>secure payment</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, nobis! Unde itaque odit doloribus
+                    impedit.
+                </p>
+            </div>
+            <div class="service-card wow fadeInUp" data-wow-delay="0.6s">
+                <i class="far fa-undo-alt"></i>
+                <h4>simple return</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eaque alias tenetur, sit ipsum velit!
+                </p>
+            </div>
+            <div class="service-card wow fadeInUp" data-wow-delay="0.8s">
+                <i class="fal fa-user-headset"></i>
+                <h4>custmor services</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, modi illo natus magnam veniam
+                    velit!</p>
+            </div>
+        </section>
+    </div>
+    <div class="container hide" data-item="Shop">
+    </div>
+    <div class="container hide" data-item="promotion">
+    </div>
+    <div class="container hide" data-item="Gallary">
+        <div class="parallel-x"></div>
+        <div class="gallary-nav">
+        </div>
+        <div class="Exit">
+            <a class="Switch" href="#">Home </a>
+            <p>\Gallary</p>
+        </div>
+    </div>
+    <div class="container hide" data-item="blog">
+    </div>
+    <div class="container hide" data-item="Contact">
+    </div>
+    <div class="footer">
+        <div class="up-footer">
+            <div class="footlogo">
+                <h1>Wadha</h1>
+                <h3>Design & Fashion</h3>
+                <p>
+                    THE HOUSE OF WADHA IS A
+                    <br />
+                    CURATED LIVING SPACE LOCATED
+                    <br />
+                    AT MSHEIREB, DOHA THAT TURNS
+                    <br />
+                    THE AESTHETIC PRINCIPLES OF<br />
+                    THE BRAND INTO A SPATIAL
+                    <br />
+                    EXPERIENCE.
+                </p>
+                <a href="">read more
+                    <i class="fas fa-caret-right"></i>
+                </a>
+            </div>
+            <div class="visit">
+                <h3>Visit</h3>
+                <h4>MUSEUM PARK ST, DOHA- QATAR</h4>
+                <p>
+                    SATURDAY-THURSDAY
+                    <br />
+                    9:00 AM TO 7:00PM
+                    <br />
+                    FRIDAY
+                    <br />
+                    2:00 PM TO 7:00 PM
+                    <br />
+                    <a href="#">INFO@WADHA.COM</a><br />
+                    <a href="tel:+974%204444%207011">
+                        <i class="fas fa-phone-alt"></i>+974 4444 7011</a>
+                </p>
+            </div>
+            <div class="legal">
+                <h3>legal</h3>
+                <a href="#">privacy & policy</a>
+                <a href="#">terms</a>
+                <a href="#">services</a>
+                <a href="#">about</a>
+                <a href="#">team</a>
+            </div>
+            <div class="follow">
+                <h3>Follw us</h3>
+                <div class="social">
+                    <a href="https://www.instagram.com/wadha/" class="social-icon insta">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <h5>talk to support</h5>
+                <a class="acc" href="#">Wadha-support@gmail.com</a>
+                <a class="acc2" href="https://www.instagram.com/wadhabags/">@ wadhabags</a>
+                <a class="acc2" href="https://www.instagram.com/houseofwadha/">@ houseofwadha</a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="lowerfooter">
+            <div class="rights">
+                <h4 class="copy">© copyright 2021-2022 .</h4>
+                <p class="copy2">All rights reserved . Powered by AhmedElsayed</p>
+            </div>
+            <div class="pay">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-apple-pay"></i>
+                <i class="fab fa-amazon-pay"></i>
+            </div>
+        </div>
+    </div>
+    <span class="to-top" id="top">
+        <i class="fal fa-arrow-to-top"></i>
+    </span>
+    <script>
+        $(".Slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+        //navbar sections navigation
+        let list = document.querySelectorAll(".list");
+        let container = document.querySelectorAll(".container");
+        for (let i = 0; i < list.length; i++) {
+            list[i].addEventListener('click', function () {
+                for (let j = 0; j < list.length; j++) {
+                    list[j].classList.remove('activex');
+                }
+                this.classList.add('activex');
+                let dataFilter = this.getAttribute('data-filter');
+                for (let k = 0; k < container.length; k++) {
+                    container[k].classList.remove('active');
+                    container[k].classList.add('hide');
+                    if (container[k].getAttribute('data-item') == dataFilter) {
+                        container[k].classList.remove('hide');
+                        container[k].classList.add('active');
+                    };
+                };
+            });
+        };
+        let Switchs = document.querySelector('.Switch');
+        Switchs.addEventListener('click', () => {
+            for (let k = 0; k < container.length; k++) {
+                container[k].classList.remove('active');
+                container[k].classList.add('hide');
+            };
+            for (let j = 0; j < list.length; j++) {
+                list[j].classList.remove('activex');
+            }
+            container[0].classList.remove('hide');
+            container[0].classList.add('active');
+            list[0].classList.add('activex');
+        });
+    </script>
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',
+                animateClass: 'animated',
+                offset: 0,
+                mobile: true,
+                live: true
+            }
+        )
+        wow.init();
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
